@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Niranjan Kumar</title>
+  <title>Niranjan Kumar | Motion Textures</title>
   <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="/al-folio/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/al-folio/assets/css/main.css">
-  <link rel="canonical" href="/al-folio/blog/">
+  <link rel="canonical" href="/al-folio/projects/3_motion_texture/">
 </head>
 
 
@@ -88,32 +88,68 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>Niranjan Kumar</h1>
-  <h2>Nothing here</h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Motion Textures</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content Motion Textures clearfix">
+    <p>With the advent of mobile cameras the number of photographs take every year has exploded. It has been estimated that at least 1.2 trillion photos will be taken in 2017. Although photographs are static, frozen instances of time, we often associate movement with certain elements contained in it. For example, if a waterfall is contained in the image, we can’t help but supplement it with the dynamic flowing motion of water. 
+Elements such as waterfalls, clouds, smoke and fire have a unique pattern of movement that could often be looped around to create a continuous infinite video. These video clips can be viewed as textures in time or motion textures. Being able to generate motion textures out of static images would let people to selectively animate parts of a photograph, enriching it to create a pleasant viewing experience.</p>
+
+<h3>Mesh manipulation</h3>
+<p><br />
+To create consecutive frames of the image we deform it by deconstructing the image region as a mesh and perturbing the vertices of the mesh.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Get user input to segment the region of interest
+2. Get user input for motion direction
+3. Interpolate across the motion region to generate a flow field
+4. Select a set of points such that they lie in the motion region
+5. Move the mesh points in the direction specified by the flow field.
+6. Interpolate new triangle pixels from the triangles in the original image
+</code></pre></div></div>
+
+<div class="img_row">
+    <img class="col two left" src="/al-folio/assets/img/meshwarp.jpg" alt="" title="Waterfall Mesh" />
+    <img class="col one left" src="/al-folio/assets/img/spline_waterfall.png" alt="" title="Waterfall Spline" />
+</div>
+<div class="col three caption">
+    Mesh that's used to deform the image(Left). Blue lines mark the direction of flow and red points represent the static regions of the masked image. A smooth flow field is created from this input with spline interpolation(Right)</div>
+
+<h3>Spline Interpolation</h3>
+<p><br />
+Another approach we tried was to use a Thin plate spline to generate a smooth flow field with typically fewer user interactions</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Select a few stationary and mobile marker points.
+2. Use TPS to interpolate between pixel displacement to create a smooth warp.
+3. Motion is spread over multiple frames to get a smooth transition over frames
+4. We deform the original source image everytime to get the new frames
+</code></pre></div></div>
+
+<p>We offer two approaches to segment the image.
+<br /></p>
+<ol>
+  <li>Interactive segmentation with grab-cut</li>
+  <li>CNN based image segmentation</li>
+</ol>
+
+<p>We showcase some of our results below</p>
+<div class="img_row">
+    <img class="col two left" src="/al-folio/assets/img/Smoke-output.gif" alt="" title="Waterfall Mesh" />
+    <img class="col one left" src="/al-folio/assets/img/waterfall2.gif" alt="" title="Waterfall Spline" />
+</div>
+<div class="col three caption">
 </div>
 
+  </article>
 
-<ul class="post-list">
   
-</ul>
 
+  
 
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    
-      <span class="pagination-item disabled">Newer</span>
-    
-  </div>
-  <div class="right">
-    
-      <span class="pagination-item disabled">Older</span>
-    
-  </div>
-  <div class="pagination-meta">Page  of </div>
 </div>
-
-
 
       </div>
     </div>
