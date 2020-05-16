@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Niranjan Kumar</title>
+  <title>Niranjan Kumar | Generating realistic hand manipulations</title>
   <meta name="description" content="PhD Student @ GeorgiaTech
 ">
 
@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="https://kniranjankumar.github.io/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="https://kniranjankumar.github.io/assets/css/main.css">
-  <link rel="canonical" href="https://kniranjankumar.github.io/blog/">
+  <link rel="canonical" href="https://kniranjankumar.github.io/projects/2_GAN/">
 </head>
 
 
@@ -88,32 +88,46 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>Niranjan Kumar</h1>
-  <h2>Nothing here</h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Generating realistic hand manipulations</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content Generating realistic hand manipulations clearfix">
+    <p>We generate realistic hand manipulations of object by using a Generative Adversarial Network by conditioning on the hand and finger pose. We adopt an encoder-decoder architecture where we input a rough rendering of the skeletal pose and get a realistic rendering of a hand as the output. We generate datasets with simulated and real human arms at different poses and use it to train our model. Given an hand pose and object pose we showcase a pipeline to generate an image conditioned on the poses.</p>
+
+<div class="img_row">
+    <img class="col one left" src="/assets/img/skeleton_hand.png" alt="" title="Pose 1" />
+    <img class="col one left" src="/assets/img/skeleton_hand2.png" alt="" title="Pose 2" />
+    <img class="col one left" src="/assets/img/skeleton_hand3.png" alt="" title="Pose 3" />
+</div>
+<div class="col three caption">
+    Example skeletal poses that we feed in as input to the network</div>
+<div class="img_row2">
+    <img class="col one left" src="/assets/img/real_hand.png" alt="" title="Generated Image 1" />
+    <img class="col one left" src="/assets/img/real_hand2.png" alt="" title="Generated Image 2" />
+    <img class="col one left" src="/assets/img/real_hand3.png" alt="" title="Generated Image 3" />
+</div>
+<div class="col three caption">
+    Generated frames from our network
+<div class="img_row2">
+<div class="img_row3">
+    <img class="col three right" src="/assets/img/hand_move.gif" alt="" title="Object Manipulation" />
+<div class="col three caption">
+    Using our network we can generate a sequence of frames that showcase an object interaction
 </div>
 
+</div></div></div>
 
-<ul class="post-list">
+  </article>
+
   
-</ul>
 
+  
 
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    
-      <span class="pagination-item disabled">Newer</span>
-    
-  </div>
-  <div class="right">
-    
-      <span class="pagination-item disabled">Older</span>
-    
-  </div>
-  <div class="pagination-meta">Page  of </div>
 </div>
-
-
 
       </div>
     </div>
