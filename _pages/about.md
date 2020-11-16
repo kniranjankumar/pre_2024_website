@@ -14,6 +14,6 @@ social: true
 ---
 I’m a fourth year PhD student at Georgia Institute of Technology working with [Prof. Irfan Essa](http://www.irfanessa.gatech.edu/). Before starting my PhD, I was a Master’s student in Electrical and Computer Engineering at Gatech and worked at the OLIVES lab with [Prof. Ghassan AlRegib](https://ghassanalregib.info/).
 
-The goal of my current research is to model aspects of human cognition into robots to make them learn and reason about the world around them. See my [Projects](/projects/)/[Publications](/publications/) for more information
+The goal of my research is to build embodied agents that learn manipulation policies to improve their understanding of objects around them. See my [Projects](/projects/)/[Publications](/publications/)/[CV](/assets/pdf/Niranjan_Kumar_2020.pdf) for more information. 
 
 
