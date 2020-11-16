@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Niranjan Kumar</title>
+  <title>Niranjan Kumar | Mass Distribution of Articulated Objects</title>
   <meta name="description" content="PhD Student @ GeorgiaTech
 ">
 
@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="https://kniranjankumar.github.io/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="https://kniranjankumar.github.io/assets/css/main.css">
-  <link rel="canonical" href="https://kniranjankumar.github.io/blog/">
+  <link rel="canonical" href="https://kniranjankumar.github.io/projects/1_mass_prediction/">
 </head>
 
 
@@ -88,32 +88,39 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>Niranjan Kumar</h1>
-  <h2>Nothing here</h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Mass Distribution of Articulated Objects</h1>
+    <h5 class="post-description">Robotics</h5>
+  </header>
+
+  <article class="post-content Mass Distribution of Articulated Objects clearfix">
+    <p>We explore the problem of estimating the mass distribution of an articulated object by an interactive robotic agent. Our method predicts the mass distribution of an object by using limited sensing and actuating capabilities of a robotic agent during an interaction with the object. Inspired by the role of exploratory play in human infants, we take the combined approach of supervised and reinforcement learning to train an agent such that it learns to strategically interact with the object for estimating its mass distribution. Our method consists of two neural networks: (i) the policy network which decides how to interact with the object, and (ii) the predictor network that estimates the mass distribution given a history of observations and interactions. Using our method, we train a robotic arm to estimate the mass distribution of an object with moving parts (e.g. an articulated rigid body system) by pushing it on a surface with unknown friction properties. We show the robustness of our method across different physics simulators and robotic platforms. We further test our method on a real robot platform with 3D printed articulated chains with varying mass distributions. We present results that demonstrate that our method significantly outperforms the baseline agent that uses random pushes to interact with the object.</p>
+<div class="img_row">
+    <img class="col three left" src="/assets/img/2chain_movement.png" alt="" title="Two Link" style="height:160px" />
+</div>
+<div class="col three caption">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pJhufIKuNcg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@misc{kumar2019estimating,
+title={Estimating Mass Distribution of Articulated Objects through Non-prehensile Manipulation},
+author={K. Niranjan Kumar and Irfan Essa and C. Karen Liu},
+year={2019},
+eprint={1907.03964},
+archivePrefix={arXiv},
+primaryClass={cs.RO}
+</code></pre></div></div>
 
-<ul class="post-list">
+
+  </article>
+
   
-</ul>
 
+  
 
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    
-      <span class="pagination-item disabled">Newer</span>
-    
-  </div>
-  <div class="right">
-    
-      <span class="pagination-item disabled">Older</span>
-    
-  </div>
-  <div class="pagination-meta">Page  of </div>
 </div>
-
-
 
       </div>
     </div>
