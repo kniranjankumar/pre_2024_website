@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: teaching
 ---
 ### Computational Photography CS6475
 #### Georgia Institute of Technology, OMSCS
