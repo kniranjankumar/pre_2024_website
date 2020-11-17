@@ -104,7 +104,7 @@ scholar:
 
   last_name: Kumar
 
-  style: apa
+  style: harvard
   locale: en
 
   sort_by: year
