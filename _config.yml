@@ -44,8 +44,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Niranjan Kumar
-blog_description: Nothing here
+blog_name: blog
+blog_description: 
 
 # Pagination
 paginate: 4
