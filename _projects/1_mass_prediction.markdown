@@ -10,7 +10,7 @@ We explore the problem of estimating the mass distribution of an articulated obj
     <img class="col three left" src="{{ site.baseurl }}/assets/img/2chain_movement.png" alt="" title="Two Link" style="height:160px" />
 </div>
 <div class="col three caption">
-<iframe width="560" height="315" src="https://youtu.be/o3zBdVWvWZw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o3zBdVWvWZw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
     
     @misc{kumar2019estimating,
