@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 	Graph-based Cluttered Scene Generation and Interactive Exploration \\using Deep Reinforcement Learning
+title: 	Graph-based Cluttered Scene Generation and Interactive Exploration using Deep Reinforcement Learning
 description: Robotics
 img: /assets/img/real_clutter.jpg
 ---
