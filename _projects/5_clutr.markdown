@@ -12,7 +12,7 @@ Given such cluttered scenes, we then train a Scene Exploration agent, using deep
 # Grammar Rules
 
 Below is al list of all the grammar rules used in our experiments (7 objects)
-![Image](../assets/img/grammar_rules.png)
+![Image](/assets/img/grammar_rules.png)
 
 ## Links:
 
