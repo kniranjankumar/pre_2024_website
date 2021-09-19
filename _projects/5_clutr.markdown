@@ -11,10 +11,12 @@ Given such cluttered scenes, we then train a Scene Exploration agent, using deep
 
 # Grammar Rules
 
-Below is al list of all the grammar rules used in our experiments (7 objects)
-<div class="img_row">
+Below is a list of all the grammar rules used in our experiments (7 objects)
+<img src="{{ site.baseurl }}/assets/img/grammar_rules.png" alt="Grammar Rules" width="200"/>
+
+<!-- <div class="img_row">
     <img class="col three left" src="{{ site.baseurl }}/assets/img/grammar_rules.png" alt="" title="Grammar Rules" style="height:864px;width:768px" />
-</div>
+</div> -->
 <!-- ![Image](/assets/img/grammar_rules.png) -->
 
 ## Links:
