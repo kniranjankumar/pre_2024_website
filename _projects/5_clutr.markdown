@@ -9,6 +9,10 @@ We introduce a novel method to teach a robotic agent to interactively explore cl
 First, we define a novel scene grammar to represent structured clutter. Then we train a Graph Neural Network (GNN) based *Scene Generation* agent using deep reinforcement learning (deep RL), to manipulate this *Scene Grammar* to create a diverse set of stable scenes, each containing multiple hidden objects.
 Given such cluttered scenes, we then train a *Scene Exploration* agent, using deep RL, to uncover hidden objects by interactively rearranging the scene. 
 
+<div class="col three caption">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T2Jo7wwaXss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 # Grammar Rules
 
 Below is a list of all the grammar rules used in our experiments (7 objects)
