@@ -27,6 +27,7 @@ Below is a list of all the grammar rules used in our experiments (7 objects)
 
 1. 14 object dataset source: [https://www.turbosquid.com/3d-models/3d-model-supermarket-shelves-pack-pasta/1089057](https://www.turbosquid.com/3d-models/3d-model-supermarket-shelves-pack-pasta/1089057)
 
+
     @misc{kumar2021graphbased,
         title={Graph-based Cluttered Scene Generation and Interactive Exploration using Deep Reinforcement Learning}, 
         author={K. Niranjan Kumar and Irfan Essa and Sehoon Ha},
