@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Niranjan Kumar</title>
+  <title>Niranjan Kumar | Graph-based Cluttered Scene Generation and Interactive Exploration using Deep Reinforcement Learning</title>
   <meta name="description" content="PhD candidate @ GeorgiaTech
 ">
 
@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="https://kniranjankumar.github.io/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="https://kniranjankumar.github.io/assets/css/main.css">
-  <link rel="canonical" href="https://kniranjankumar.github.io/blog/">
+  <link rel="canonical" href="https://kniranjankumar.github.io/projects/5_clutr/">
 </head>
 
 
@@ -88,24 +88,52 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>blog</h1>
-  <h2></h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Graph-based Cluttered Scene Generation and Interactive Exploration using Deep Reinforcement Learning</h1>
+    <h5 class="post-description">Robotics</h5>
+  </header>
+
+  <article class="post-content Graph-based Cluttered Scene Generation and Interactive Exploration using Deep Reinforcement Learning clearfix">
+    <p>We introduce a novel method to teach a robotic agent to interactively explore cluttered yet structured scenes, such as kitchen pantries and grocery shelves, by leveraging the physical plausibility of the scene. We propose a novel learning framework to train an effective scene exploration policy to discover hidden objects with minimal interactions.
+First, we define a novel scene grammar to represent structured clutter. Then we train a Graph Neural Network (GNN) based <em>Scene Generation</em> agent using deep reinforcement learning (deep RL), to manipulate this <em>Scene Grammar</em> to create a diverse set of stable scenes, each containing multiple hidden objects.
+Given such cluttered scenes, we then train a <em>Scene Exploration</em> agent, using deep RL, to uncover hidden objects by interactively rearranging the scene.</p>
+
+<div class="col three caption">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T2Jo7wwaXss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
+<h1 id="grammar-rules">Grammar Rules</h1>
 
-<ul class="post-list">
+<p>Below is a list of all the grammar rules used in our experiments (7 objects)
+<img src="/assets/img/grammar_rules.png" alt="Grammar Rules" width="800" /></p>
+
+<!-- <div class="img_row">
+    <img class="col three left" src="/assets/img/grammar_rules.png" alt="" title="Grammar Rules" style="height:864px;width:768px" />
+</div> -->
+<!-- ![Image](/assets/img/grammar_rules.png) -->
+
+<h2 id="links">Links:</h2>
+
+<p>14 object dataset source: <a href="https://www.turbosquid.com/3d-models/3d-model-supermarket-shelves-pack-pasta/1089057">https://www.turbosquid.com/3d-models/3d-model-supermarket-shelves-pack-pasta/1089057</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@misc{kumar2021graphbased,
+    title={Graph-based Cluttered Scene Generation and Interactive Exploration using Deep Reinforcement Learning}, 
+    author={K. Niranjan Kumar and Irfan Essa and Sehoon Ha},
+    year={2021},
+    eprint={2109.10460},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO}}
+</code></pre></div></div>
+
+  </article>
+
   
-    <li>
-      <h2><a class="post-title" href="/blog/2020/productivity/">Productivity hacks for graduate students</a></h2>
-      <p class="post-meta">November 16, 2020 — 10:12</p>
-      <p>Becoming productive one tomato at a time</p>
-    </li>
+
   
-</ul>
 
-
-
+</div>
 
       </div>
     </div>
