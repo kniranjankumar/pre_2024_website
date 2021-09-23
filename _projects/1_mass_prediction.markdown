@@ -19,7 +19,7 @@ We explore the problem of estimating the mass distribution of an articulated obj
     year={2019},
     eprint={1907.03964},
     archivePrefix={arXiv},
-    primaryClass={cs.RO}
+    primaryClass={cs.RO}}
 
 
 

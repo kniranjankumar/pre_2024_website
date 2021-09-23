@@ -34,5 +34,4 @@ Below is a list of all the grammar rules used in our experiments (7 objects)
         year={2021},
         eprint={2109.10460},
         archivePrefix={arXiv},
-        primaryClass={cs.RO}
-    }
+        primaryClass={cs.RO}}
