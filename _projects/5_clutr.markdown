@@ -29,10 +29,15 @@ Below is a list of all the grammar rules used in our experiments (7 objects)
 
 
 
-    @misc{kumar2021graphbased,
-        title={Graph-based Cluttered Scene Generation and Interactive Exploration using Deep Reinforcement Learning}, 
+    @inproceedings{kumar2022graphbased,
+        title={Graph-based Cluttered Scene Generation and Interactive Exploration using Deep Reinforcement Learning},
+        archiveprefix  = {arXiv},
+        arxiv = {https://arxiv.org/abs/2109.10460},
         author={K. Niranjan Kumar and Irfan Essa and Sehoon Ha},
-        year={2021},
-        eprint={2109.10460},
-        archivePrefix={arXiv},
-        primaryClass={cs.RO}}
+        booktitle={2022 IEEE International Conference on Robotics and Automation (ICRA)},
+        organization={IEEE},
+        pdf={https://www.kniranjankumar.com/assets/pdf/graph_based_clutter.pdf},
+        primaryClass={cs.RO},
+        url={https://www.kniranjankumar.com/projects/5_clutr/},
+        video={https://youtu.be/T2Jo7wwaXss},
+        year={2022}}
