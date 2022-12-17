@@ -5,11 +5,13 @@ description: Robotics
 img: /assets/img/door_open_motion_frame.png
 ---
 
-Real-world autonomous missions often require rich interaction with nearby objects, such as doors or switches, along with effective navigation. However, such complex behaviors are difficult to learn because they involve both high-level planning and low-level motor control. We present a novel framework, Cascaded Compositional Residual Learning (CCRL), which learns composite skills by recursively leveraging a library of previously learned control policies. Our framework learns multiplicative policy composition, task-specific residual actions, and synthetic goal information simultaneously while freezing the prerequisite policies. We further explicitly control the style of the motion by regularizing residual actions. We show that our framework learns joint-level control policies for a diverse set of motor skills ranging from basic locomotion to complex interactive navigation, including navigating around obstacles, pushing objects, crawling under a table, pushing a door open with its leg, and holding it open while walking through it. The proposed CCRL framework leads to policies with consistent styles and lower joint torques, which we successfully transfer to a real Unitree A1 robot without any additional fine-tuning.
+We present a novel framework, Cascaded Compositional Residual Learning (CCRL), which learns composite skills by recursively leveraging a library of previously learned control policies. Our framework learns multiplicative policy composition, task-specific residual actions, and synthetic goal information simultaneously while freezing the prerequisite policies. We further explicitly control the style of the motion by regularizing residual actions. We show that our framework learns joint-level control policies for a diverse set of motor skills ranging from basic locomotion to complex interactive navigation, including navigating around obstacles, pushing objects, crawling under a table, pushing a door open with its leg, and holding it open while walking through it. The proposed CCRL framework leads to policies with consistent styles and lower joint torques, which we successfully transfer to a real Unitree A1 robot without any additional fine-tuning.
+
+
+<div class="center">
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/skill_rel_gif.gif" alt="" title="Skill relationships" style="height:660px" />
+</div>
 
 <div class="col three caption">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fAklIxiK7Qg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/skill_rel_gif.gif" alt="" title="Skill relationships" style="height:660px" />
 </div>
