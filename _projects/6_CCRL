@@ -10,3 +10,9 @@ Real-world autonomous missions often require rich interaction with nearby object
 <div class="col three caption">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fAklIxiK7Qg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<p align="center">
+  <a href="{{ site.baseurl }}/assets/img/skill_rel_gif.gif">
+    <img src="assets/img/skill_rel_gif.gif" width="75%">
+  </a>
+</p>
