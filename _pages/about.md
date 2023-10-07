@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Niranjan</strong> Kumar
+title: <strong>K. Niranjan</strong> Kumar
 description: <a href="">Georgia Institute of Technology</a>. niranjankumar@gatech.edu
 
 profile:
