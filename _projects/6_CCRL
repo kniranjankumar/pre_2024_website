@@ -1,4 +1,7 @@
----
+<script type="text/javascript">
+  window.location.href = "https://www.kniranjankumar.com/ccrl";
+</script>
+<!-- ---
 layout: page
 title: 	Cascaded Compositional Residual Learning for Complex Interactive Behaviors
 description: Robotics
@@ -14,4 +17,4 @@ We present a novel framework, Cascaded Compositional Residual Learning (CCRL), w
 
 <div class="col three caption">
 <iframe width="560" height="315" src="https://youtu.be/8eyG79B0uP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+</div> -->
